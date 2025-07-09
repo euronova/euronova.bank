@@ -21,14 +21,8 @@
     }
   ],
   "env": {
-    "DATABASE_URL": "@database_url",
-    "BREVO_API_KEY": "@brevo_api_key",
+    "DATABASE_URL": "@DATABASE_URL",
+    "BREVO_API_KEY": "@BREVO_API_KEY",
     "NODE_ENV": "production"
-  },
-  "functions": {
-    "server/index.ts": {
-      "maxDuration": 30
-    }
   }
 }
-
