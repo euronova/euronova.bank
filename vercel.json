@@ -18,7 +18,6 @@
     }
   ],
   "env": {
-    "DATABASE_URL": "@database_url",
     "BREVO_API_KEY": "@brevo_api_key",
     "NODE_ENV": "production"
   }
